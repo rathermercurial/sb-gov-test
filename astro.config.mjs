@@ -9,6 +9,9 @@ export default defineConfig({
 		starlight({
             plugins: [starlightThemeObsidian()],
 			title: 'SB Governance State',
+			components: {
+				PageSidebar: './src/components/PageSidebar.astro',
+			},
 		    // logo: {
     		// 	src: './src/assets/sb-icon.jpg',
       		// },	
