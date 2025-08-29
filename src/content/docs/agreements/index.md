@@ -3,9 +3,7 @@ title: Agreement Registry
 description: An index of agreements that govern participation in SuperBenefit
 ---
 
-# SuperBenefit Agreement Registry
-
-Welcome to SuperBenefit's agreements repository, where we maintain foundational documents that establish relationships within our community and organization. As explained in our [main governance documentation](../index.md), agreements focus on relationships between participants while policies translate these relationships into operational frameworks.
+Welcome to SuperBenefit's agreements repository, where we maintain foundational documents that establish relationships within our community and organization. As explained in our [main governance documentation](../), agreements focus on relationships between participants while policies translate these relationships into operational frameworks.
 
 ## Understanding Agreements in Our Governance
 

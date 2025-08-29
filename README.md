@@ -36,6 +36,6 @@ Those interested in participating in governance development can engage through o
 
 ## Finding Your Way
 
-Key governance documents can be accessed through the [main navigation](/index.md), while detailed [policies](/policies/index.md) are organized by domain to support efficient reference during collaborative work. The [proposal archive](/proposals/index.md) can be explored chronologically to understand governance evolution or topically to see how specific coordination challenges have been addressed over time.
+Key governance documents can be accessed through the [main navigation](/), while detailed [policies](/policies/index.md) are organized by domain to support efficient reference during collaborative work. The [proposal archive](/proposals/index.md) can be explored chronologically to understand governance evolution or topically to see how specific coordination challenges have been addressed over time.
 
 SuperBenefit's governance succeeds when it becomes a transparent foundation that enables rather than constrains effective work. By maintaining this repository as a living record of our coordination commitments, we create the conditions for effective collaboration that honors both individual autonomy and collective purpose in service of systems that benefit all participants.
