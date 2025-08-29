@@ -1,24 +1,33 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import starlightThemeObsidian from 'starlight-theme-obsidian';
 
 // https://astro.build/config
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+            plugins: [starlightThemeObsidian()],
+			title: 'SB Governance State',
+		    // logo: {
+    		// 	src: './src/assets/sb-icon.jpg',
+      		// },	
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/superbenefit/governance' }],
 			sidebar: [
 				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
-					],
+					label: 'Agreements',
+					collapsed: true,
+					autogenerate: { directory: 'agreements' },
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: 'Policies',
+					collapsed: true,
+					autogenerate: { directory: 'policies' },
+				},
+				{
+					label: 'Proposals',
+					collapsed: true,
+					autogenerate: { directory: 'proposals' },
 				},
 			],
 		}),
